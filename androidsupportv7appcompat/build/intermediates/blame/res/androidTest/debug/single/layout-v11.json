@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/media/daddy/Stuff/projects/android/ez-joe/androidsupportv7appcompat/build/intermediates/res/merged/androidTest/debug/layout-v11/abc_simple_decor.xml",
+        "source": "/media/daddy/Stuff/projects/android/ez-joe/androidsupportv7appcompat/build/intermediates/bundles/debug/res/layout-v11/abc_simple_decor.xml"
+    },
+    {
+        "merged": "/media/daddy/Stuff/projects/android/ez-joe/androidsupportv7appcompat/build/intermediates/res/merged/androidTest/debug/layout-v11/abc_action_bar_decor.xml",
+        "source": "/media/daddy/Stuff/projects/android/ez-joe/androidsupportv7appcompat/build/intermediates/bundles/debug/res/layout-v11/abc_action_bar_decor.xml"
+    }
+]

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout   
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal" >
+    <ScrollView
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:scrollbars="none" >
+		
+        <LinearLayout
+		    android:orientation="vertical"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		
+		    <TextView
+			    android:id="@+id/title_apft"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center"
+			    android:paddingTop="8sp"
+				android:paddingBottom="8sp"
+			    android:text="@string/apft_calculator" />
+			
+			<LinearLayout
+			    android:orientation="horizontal"
+			    android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical" >
+		
+				<TextView
+				    android:id="@+id/label_gender"
+				    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:layout_weight="1"
+				    android:gravity="center_vertical|right"
+				    android:text="@string/gender" />
+				
+				<Spinner
+				    android:id="@+id/spinner_gender"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1" />
+			    
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:orientation="horizontal"
+			    android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical" >
+		
+				<TextView
+				    android:id="@+id/label_age"
+				    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:layout_weight="1"
+				    android:gravity="center_vertical|right"
+				    android:text="@string/age" />
+				
+				<Spinner
+				    android:id="@+id/spinner_age"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1" />
+			    
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:orientation="horizontal"
+			    android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical" >
+		
+				<TextView
+				    android:id="@+id/label_pushups"
+				    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:layout_weight="1"
+				    android:gravity="center_vertical|right"
+				    android:text="@string/pushups" />
+				
+				<EditText
+				    android:id="@+id/edittext_pushups"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:inputType="number"
+				    android:maxLength="3" >
+				</EditText>
+			    
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:orientation="horizontal"
+			    android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical" >
+		
+				<TextView
+				    android:id="@+id/label_situps"
+				    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:layout_weight="1"
+				    android:gravity="center_vertical|right"
+				    android:text="@string/situps" />
+				
+				<EditText
+				    android:id="@+id/edittext_situps"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:inputType="number"
+				    android:maxLength="3" >
+				</EditText>
+			    
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:orientation="horizontal"
+			    android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical" >
+		
+				<Spinner
+				    android:id="@+id/spinner_aerobic"
+				    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:layout_weight="1"
+				    android:gravity="right" />
+				
+				<EditText
+				    android:id="@+id/edittext_minutes"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="0.45"
+				    android:inputType="number"
+				    android:nextFocusRight="@+id/edittext_seconds"
+				    android:nextFocusDown="@+id/edittext_seconds"
+				    android:maxLength="2" >
+				</EditText>
+				
+				<TextView
+				    android:id="@+id/time_separator"
+				    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:layout_weight="0.1"
+				    android:gravity="center"
+				    android:text="@string/time_separator" />
+				
+				<EditText
+				    android:id="@+id/edittext_seconds"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="0.45"
+				    android:inputType="number"
+				    android:maxLength="2" >
+				</EditText>
+			    
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:orientation="horizontal"
+			    android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical" >
+				
+			    <TextView
+				    android:id="@+id/label_alternate"
+				    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:layout_weight="0.5"
+				    android:gravity="center" />
+		
+				<TextView
+				    android:id="@+id/label_score"
+				    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:layout_weight="0.5"
+				    android:gravity="center_vertical|right"
+				    android:text="@string/score" />
+				
+				<EditText
+				    android:id="@+id/edittext_score"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:inputType="none"
+				    android:focusable="false"
+				    android:focusableInTouchMode="false" >
+				</EditText>
+					
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:orientation="horizontal"
+			    android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical" >
+			
+				<Button
+					android:id="@+id/button_back"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:text="@string/main_menu"
+					android:layout_weight="1" />
+				
+				<Button
+					android:id="@+id/button_recalculate"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:text="@string/recalculate"
+					android:layout_weight="1" />
+				
+			</LinearLayout>
+			
+		</LinearLayout>
+		
+	</ScrollView>
+    
+</LinearLayout>

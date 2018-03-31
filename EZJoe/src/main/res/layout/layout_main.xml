@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout   
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal" >
+    
+    <ScrollView
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:scrollbars="none" >
+
+		<LinearLayout
+		    android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal" > 
+				
+			<TextView
+				android:id="@+id/title_menu"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:paddingTop="8sp"
+				android:paddingBottom="8sp"
+				android:text="@string/main_menu" />
+		        
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" >    
+			
+				 <Button
+				     android:id="@+id/button_apft"
+				     android:layout_width="match_parent"
+				     android:layout_height="wrap_content"
+				     android:text="@string/apft_calculator" />
+				 
+				 <Button
+				     android:id="@+id/button_weight"
+				     android:layout_width="match_parent"
+				     android:layout_height="wrap_content"
+				     android:text="@string/weight_limit" />
+				 
+				 <Button
+				     android:id="@+id/button_bodyfat"
+				     android:layout_width="match_parent"
+				     android:layout_height="wrap_content"
+				     android:text="@string/body_fat" />
+				 
+				 <Button
+				     android:id="@+id/button_exit"
+				     android:layout_width="match_parent"
+				     android:layout_height="wrap_content"
+				     android:text="@string/exit" />
+			   
+			</LinearLayout>
+			
+			<TextView
+				android:id="@+id/menu_spacer"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:paddingTop="8sp"
+				android:paddingBottom="8sp"
+				android:text="@string/spacer" />
+		
+		</LinearLayout>
+	
+	</ScrollView>
+    
+</LinearLayout>

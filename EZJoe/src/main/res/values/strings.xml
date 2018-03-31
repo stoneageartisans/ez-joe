@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">EZ Joe</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="apft_calculator">APFT Calculator</string>
+    <string name="weight_limit">Weight Limit</string>
+    <string name="body_fat">Body Fat</string>
+    <string name="exit">Exit</string>
+    <string name="spacer"> </string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="pushups">Push-Ups</string>
+    <string name="situps">Sit-Ups</string>
+    <string name="time_separator">:</string>
+    <string name="score">Score</string>
+    <string name="height">Height (inches)</string>
+    <string name="minimum">Min. Weight</string>
+    <string name="maximum">Max. Weight</string>
+    <string name="neck">Neck (inches)</string>
+    <string name="waist">Waist (inches)</string>
+    <string name="hips">Hips (inches)</string>
+    <string name="percentage">Body Fat %</string>
+    <string name="recalculate">Recalculate</string>
+    
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    
+    <string-array name="age_apft">
+        <item>17 – 21</item>
+        <item>22 – 26</item>
+        <item>27 – 31</item>
+        <item>32 – 36</item>
+        <item>37 – 41</item>
+        <item>42 – 46</item>
+        <item>47 – 51</item>
+        <item>52 – 56</item>
+        <item>57 – 61</item>
+        <item>62 and up</item>
+    </string-array>
+    
+    <string-array name="age_weight">
+        <item>17 – 20</item>
+        <item>21 – 27</item>
+        <item>28 – 39</item>
+        <item>40 plus</item>
+    </string-array>
+    
+    <string-array name="event_aerobic">
+        <item>Run</item>
+        <item>Swim</item>
+        <item>Bicycle</item>
+        <item>Walk</item>
+    </string-array>
+
+</resources>

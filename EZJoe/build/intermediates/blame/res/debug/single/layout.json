@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/media/daddy/Stuff/projects/android/ez-joe/EZJoe/build/intermediates/res/merged/debug/layout/layout_apft.xml",
+        "source": "/media/daddy/Stuff/projects/android/ez-joe/EZJoe/src/main/res/layout/layout_apft.xml"
+    },
+    {
+        "merged": "/media/daddy/Stuff/projects/android/ez-joe/EZJoe/build/intermediates/res/merged/debug/layout/layout_bodyfat.xml",
+        "source": "/media/daddy/Stuff/projects/android/ez-joe/EZJoe/src/main/res/layout/layout_bodyfat.xml"
+    },
+    {
+        "merged": "/media/daddy/Stuff/projects/android/ez-joe/EZJoe/build/intermediates/res/merged/debug/layout/layout_main.xml",
+        "source": "/media/daddy/Stuff/projects/android/ez-joe/EZJoe/src/main/res/layout/layout_main.xml"
+    },
+    {
+        "merged": "/media/daddy/Stuff/projects/android/ez-joe/EZJoe/build/intermediates/res/merged/debug/layout/layout_weight.xml",
+        "source": "/media/daddy/Stuff/projects/android/ez-joe/EZJoe/src/main/res/layout/layout_weight.xml"
+    }
+]

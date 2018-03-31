@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/media/daddy/Stuff/projects/android/ez-joe/androidsupportv7appcompat/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/media/daddy/Stuff/projects/android/ez-joe/androidsupportv7appcompat/build/intermediates/bundles/debug/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/media/daddy/Stuff/projects/android/ez-joe/androidsupportv7appcompat/build/intermediates/res/merged/androidTest/debug/anim/abc_fade_in.xml",
+        "source": "/media/daddy/Stuff/projects/android/ez-joe/androidsupportv7appcompat/build/intermediates/bundles/debug/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/media/daddy/Stuff/projects/android/ez-joe/androidsupportv7appcompat/build/intermediates/res/merged/androidTest/debug/anim/abc_fade_out.xml",
+        "source": "/media/daddy/Stuff/projects/android/ez-joe/androidsupportv7appcompat/build/intermediates/bundles/debug/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/media/daddy/Stuff/projects/android/ez-joe/androidsupportv7appcompat/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/media/daddy/Stuff/projects/android/ez-joe/androidsupportv7appcompat/build/intermediates/bundles/debug/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/media/daddy/Stuff/projects/android/ez-joe/androidsupportv7appcompat/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_out_top.xml",
+        "source": "/media/daddy/Stuff/projects/android/ez-joe/androidsupportv7appcompat/build/intermediates/bundles/debug/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/media/daddy/Stuff/projects/android/ez-joe/androidsupportv7appcompat/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_in_top.xml",
+        "source": "/media/daddy/Stuff/projects/android/ez-joe/androidsupportv7appcompat/build/intermediates/bundles/debug/res/anim/abc_slide_in_top.xml"
+    }
+]

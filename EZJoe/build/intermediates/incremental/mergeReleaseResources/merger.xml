@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="/media/daddy/Stuff/projects/android/ez-joe/EZJoe/src/main/res"/><source path="/media/daddy/Stuff/projects/android/ez-joe/EZJoe/build/generated/res/rs/release"/><source path="/media/daddy/Stuff/projects/android/ez-joe/EZJoe/build/generated/res/resValues/release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="/media/daddy/Stuff/projects/android/ez-joe/EZJoe/src/release/res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="/media/daddy/Stuff/projects/android/ez-joe/EZJoe/src/main/res"><file name="ic_launcher" path="/media/daddy/Stuff/projects/android/ez-joe/EZJoe/src/main/res/drawable-hdpi/ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="/media/daddy/Stuff/projects/android/ez-joe/EZJoe/src/main/res/drawable-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="/media/daddy/Stuff/projects/android/ez-joe/EZJoe/src/main/res/drawable-xhdpi/ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="/media/daddy/Stuff/projects/android/ez-joe/EZJoe/src/main/res/drawable-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="layout_apft" path="/media/daddy/Stuff/projects/android/ez-joe/EZJoe/src/main/res/layout/layout_apft.xml" qualifiers="" type="layout"/><file name="layout_bodyfat" path="/media/daddy/Stuff/projects/android/ez-joe/EZJoe/src/main/res/layout/layout_bodyfat.xml" qualifiers="" type="layout"/><file name="layout_main" path="/media/daddy/Stuff/projects/android/ez-joe/EZJoe/src/main/res/layout/layout_main.xml" qualifiers="" type="layout"/><file name="layout_weight" path="/media/daddy/Stuff/projects/android/ez-joe/EZJoe/src/main/res/layout/layout_weight.xml" qualifiers="" type="layout"/><file path="/media/daddy/Stuff/projects/android/ez-joe/EZJoe/src/main/res/values/strings.xml" qualifiers=""><string name="weight_limit">Weight Limit</string><string name="apft_calculator">APFT Calculator</string><string name="spacer"> </string><string name="waist">Waist (inches)</string><string name="situps">Sit-Ups</string><string name="neck">Neck (inches)</string><string-array name="age_apft">
+        <item>17 – 21</item>
+        <item>22 – 26</item>
+        <item>27 – 31</item>
+        <item>32 – 36</item>
+        <item>37 – 41</item>
+        <item>42 – 46</item>
+        <item>47 – 51</item>
+        <item>52 – 56</item>
+        <item>57 – 61</item>
+        <item>62 and up</item>
+    </string-array><string name="body_fat">Body Fat</string><string name="hips">Hips (inches)</string><string name="exit">Exit</string><string name="maximum">Max. Weight</string><string name="score">Score</string><string name="minimum">Min. Weight</string><string name="pushups">Push-Ups</string><string name="gender">Gender</string><string-array name="age_weight">
+        <item>17 – 20</item>
+        <item>21 – 27</item>
+        <item>28 – 39</item>
+        <item>40 plus</item>
+    </string-array><string name="app_name">EZ Joe</string><string name="main_menu">Main Menu</string><string name="age">Age</string><string name="time_separator">:</string><string name="recalculate">Recalculate</string><string name="height">Height (inches)</string><string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array><string-array name="event_aerobic">
+        <item>Run</item>
+        <item>Swim</item>
+        <item>Bicycle</item>
+        <item>Walk</item>
+    </string-array><string name="percentage">Body Fat %</string></file></source><source path="/media/daddy/Stuff/projects/android/ez-joe/EZJoe/build/generated/res/rs/release"/><source path="/media/daddy/Stuff/projects/android/ez-joe/EZJoe/build/generated/res/resValues/release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="/media/daddy/Stuff/projects/android/ez-joe/EZJoe/src/release/res"/></dataSet><mergedItems/></merger>
